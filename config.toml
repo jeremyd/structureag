@@ -1,0 +1,15 @@
+# Aws Region
+region="us-west-2"
+
+# VPC address range.  Eg. A range between  172.16.0.0 - 172.31.255.255 
+vpc-cidr-block="172.25.0.0/16"
+
+# Subnets
+num-subnets=3
+subnet-0-cidr="172.25.0.0/24"
+subnet-1-cidr="172.25.1.0/24"
+subnet-2-cidr="172.25.2.0/24"
+
+# Tag lookup using Tag=MYTAG=Value
+tagkey="MYTAG"
+tagvalue="livedemo"
